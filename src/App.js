@@ -2,6 +2,7 @@ import ProgrammingProjects from "./ProgrammingProjects";
 import KnowledgeAndHobbies from "./KnowledgeAndHobbies";
 import Education from "./Education";
 import Skills from "./Skills";
+import PersonalDetails from "./PersonalDetails";
 
 function App() {
     return (
@@ -13,7 +14,10 @@ function App() {
             <p className="noprint">תערכו כאן:
                 <a href="https://github.com/Roysav/resume" className="noprint">github</a>
             </p>
-            <div className="grid place-items-center w-[210mm] px-8 py-16 border border-noprint">
+            <div className="grid place-items-center w-[210mm] px-8 py-16 space-y-6 border border-noprint">
+                <header className="bg-gray-700 text-gray-300 p-2">
+                    <PersonalDetails/>
+                </header>
                 <main className="flex flex-row-reverse" >
                     <div className="w-3/4 flex flex-col">
                         <ProgrammingProjects/>

@@ -5,15 +5,15 @@
 
 body {
     -webkit-print-color-adjust: exact;
-    font-family: cambria, serif;
+    font-family: Arial, serif;
 }
 
 h1 {
-    @apply text-2xl bg-gray-600 w-full text-white;
+    @apply text-2xl bg-gray-600 w-full text-gray-100;
 }
 
 h2 {
-    @apply text-xl bg-gray-400 w-full text-white;
+    @apply text-xl bg-gray-400 w-full text-gray-50;
 }
 
 h3 {
