@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    -webkit-print-color-adjust: exact;
+    font-family: cambria, serif;
+}
+
+h1 {
+    @apply text-2xl bg-gray-600 w-full text-white;
+}
+
+h2 {
+    @apply text-xl bg-gray-400 w-full text-white;
+}
+
+h3 {
+    @apply text-blue-900;
+}
+
+article section {
+    @apply pb-4;
+}
+
+a {
+    @apply text-blue-900 underline;
+}
+
+p, li {
+
+}
+
+@media print {
+    .noprint {
+        @apply hidden;
+    }
+    .border-noprint{
+        @apply border-0;
+    }
+}
