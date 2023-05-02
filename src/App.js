@@ -14,8 +14,8 @@ function App() {
             <p className="noprint">תערכו כאן:
                 <a href="https://github.com/Roysav/resume" className="noprint">github</a>
             </p>
-            <div className="grid place-items-center w-[210mm] px-8 py-16 space-y-6 border border-noprint">
-                <header className="bg-gray-700 text-gray-300 p-2">
+            <div className="grid place-items-center w-[210mm] px-8 py-16 space-y-6 border border-noprint bg-gray-200">
+                <header className="gradient bg-gray-700/40 text-gray-100 p-2">
                     <PersonalDetails/>
                 </header>
                 <main className="flex flex-row-reverse" >

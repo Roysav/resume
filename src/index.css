@@ -40,3 +40,10 @@ p, li {
         @apply border-0;
     }
 }
+
+
+.gradient {
+    background: rgb(142,159,182);
+    background: linear-gradient(184deg, rgba(142,159,182,1) 0%, rgba(75,85,99,1) 100%);
+
+}
